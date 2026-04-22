@@ -28,3 +28,8 @@ build/
 # Misc
 *.tmp
 *.bak
+
+# Claude Code / AI agent internal traces (never commit)
+.agent-trace/
+.claude/
+.workflow_state.json
